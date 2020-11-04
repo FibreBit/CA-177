@@ -1,2 +1,2 @@
 # CA-177
-Programming Exercises from Computing Programming II (DCU Comuter Applications) 
+Programming Exercises from various aspects of the Computer Applications DCU Course
