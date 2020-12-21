@@ -7,7 +7,6 @@ The number of networks for the class of the address
 The number of hosts for the class of the address
 The first IP address for the class
 The last IP address for the class
-
 ```
 
 Program should also contain a supernet calculator.
