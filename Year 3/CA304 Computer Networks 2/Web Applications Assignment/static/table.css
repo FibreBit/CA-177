@@ -1,0 +1,12 @@
+script{
+    background-color: white;
+    box-shadow: 2px 2px 2px 0px grey;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    font-size: 15px;
+    border: 6px solid #F7F7F7;
+    border-left: 6px solid #1E87E7;
+    border-right: 6px solid #1E87E7;
+    text-align: justify;
+}

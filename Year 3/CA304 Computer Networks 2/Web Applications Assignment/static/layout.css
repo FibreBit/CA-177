@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F7F7F7;
+    margin: 0px auto;
+}
+
+main{
+    background-image: linear-gradient(#1E87E7, white, white, white, white, #1E87E7);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2px;
+    padding-top: 35px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+h2{
+    font-size: 30px;
+    background-image: linear-gradient(white, #1E87E7);
+    border: 2px solid #DBDBDB;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.page-footer{
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-top: 1px solid grey;
+}
+
+.page-footer a{
+    text-decoration: none;
+    color: black;
+}

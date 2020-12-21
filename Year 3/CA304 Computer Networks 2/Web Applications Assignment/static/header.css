@@ -1,0 +1,27 @@
+
+/*HEADER SECTION------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.header-content {
+    padding-top: 50px;
+    background-size: cover;
+    background-position: 0% 60%;
+    text-align: center;
+    margin: 0;
+}
+
+.header-content img{
+    height: auto;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 50%;
+    border-left: 8px solid #1E87E7;
+    border-right: 8px solid #1E87E7;
+    border-top: 8px solid #F7F7F7;
+    border-bottom: 8px solid #F7F7F7;
+
+}
+
+.Quote{
+    font-style: italic;
+    color: black;
+}
+

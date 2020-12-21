@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome to my online portfolio. My name is Cameron Fitzpatrick, and I am currently in my first year at Dublin City University. I am studying Computer Applications." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cameron's Online Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static',    filename='layout.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='about.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='header.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='nav.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='contact.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='social.css') }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://dewey.tailorbrands.com/production/brand_version_mockup_image/153/1438611153_ee943489-0d20-406e-8601-ecd51178b78a.png?cb=1542991891">
+</head>
+
+
+<body>
+    <nav class="nav-bar">
+        <a href="#contact" class="link">Contact Me</a>
+        <a href="#images" class="link">Image Gallery</a>
+        <a href="#work" class="link">Work Experience</a>
+        <a href="#about" class="leftlink">About Me</a>
+    </nav>
+    <main>
+        <header class="page-header">
+            <div class="header-content">
+                <img src = "https://scontent-dub4-1.xx.fbcdn.net/v/t1.15752-9/130548172_2847716278834477_9046527961474543108_n.jpg?_nc_cat=102&ccb=2&_nc_sid=ae9488&_nc_ohc=6gegLh3ZVe4AX_zX9m9&_nc_ht=scontent-dub4-1.xx&oh=8b02714c90886227fa6c06862fe501a0&oe=5FF2CF38" alt = "Profile Picture" title="Profile Picture" />
+                <h1>Cameron Fitzpatrick's Portfolio</h1>
+                    <div class="Quote">
+				<p><i>“There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.”</i></p>
+                    </div>
+            </div>
+        </header>
+		<br>
+		<br>
+		<br>
+        <section id="about" class="AboutMe-container">
+            <div class="about-me">
+                <h2>About Me</h2>
+				<p>Hello, my name is Cameron Fitzpatrick, and welcome to my online portfolio. I am currently in my third year at Dublin City University studying Computer Applications &  Software Engineering.  I'm 21 years old, and I moved from Cavan to Dublin when I was 10 years old. I've been fascinated with computers for my whole life, and I've always wanted to explore how they work both internally and in terms of software. I'm excited to pursue a career in this field, starting with my INTRA placement next semester. I also truly enjoy Web Design, and would be thrilled if I were to secure a career in that field also.
+                <br>
+                <br>
+                I'm currently living 15 minutes away from Blanchardstown Shopping Centre in the Clonsilla area. I attend lectures at DCU Monday-Friday, and have a half day on Wednesdays and Fridays.
+                <br>
+                <br>
+                I believe that I posess many qualities that would make me very suitable to work for you, some of which include:
+                    <ul>
+                        <li>Dependable</li>
+                        <li>Positive Attitude</li>
+                        <li>Good Work Ethic</li>
+                        <li>Effective Communicator</li>
+                        <li>Problem-Solving Abilities</li>
+                    </ul>
+                <br>
+                <br>
+                I am currently available to work part time from 15:00 onwards on Wednesdays, and all day Saturday and Sunday. I'm looking to work a minimum of 8 hours a week if possible, and a maximum of 16-20 hours. If you would like to contact me, please send me a message using the contact box below.
+                 </p>
+            </div>
+		<br>
+		<br>
+		<br>
+        </section>
+        <section id="work" class="work-experience-container">
+		    <div class="work-exp">
+                <h2>Work Experience</h2>
+				    <ul>
+                        <li><b>Admin Work at AIG<i> - December 2017</i></b>
+                        <br>
+                        I worked in AIG Insurance as an Administrator for the month of December as work experience. My duties included basic admin work, filing, copying, delivering packages, housekeeping and letter sealing.</li>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/AIG_logo.svg/1200px-AIG_logo.svg.png" alt="aigpic" title="AIG Insurance">
+				        <li><b>Apartment Management<i> - July-September 2018</i></b>
+                        <br>
+				        Over the summer of 2018, I traveled to Nice France in order to work as an Apartment Manager. Our duties included meeting with new tenants once they arrive, showing them to their apartment, providing assistance with any queries they may have during their stay, and general housekeeping.</li>
+                        <img src="https://i2.wp.com/youngwayfarer.com/wp-content/uploads/2018/04/20180402-_MG_0629.jpg?fit=1500%2C1000" alt="nicepic" title="Nice, France">
+					    <li><b>The Porterhouse Brewery<i> - August 2017-Current</i></b>
+                        <br>
+					    I am currently employed by the Porterhouse Brewing Company. I work as a General Operative. The duties of this role include packaging and quality-checking of beer products, preparing packaging for products, labeling, admin work, general housekeeping and labor. </li>
+                        <img src="https://dth50iqs19w2y.cloudfront.net/9a/58d920ff7511e7937189e31dfe2530/Porterhouse_Web.png" alt="brewerypic" title="The Porterhouse Brewing Company">
+                    </ul>
+            </div>
+        </section>
+		<br>
+		<br>
+		<br>
+        <section id="images" class="image-gallery-container">
+            <div class="image-content">
+                <h2>Image Gallery</h2>
+                <div class="gallery">
+                    <div class="row">
+                        <div class="column">
+					       <p><img src = "https://scontent-dub4-1.xx.fbcdn.net/v/t1.15752-9/130449913_382508693199213_7560233827569590082_n.jpg?_nc_cat=102&ccb=2&_nc_sid=ae9488&_nc_ohc=g0ExyVoPxGAAX94ULEN&_nc_ht=scontent-dub4-1.xx&oh=d18ab04b0b4ce1131a6aa4d0e0867113&oe=5FF370D2" alt = "Longitude2018" height = "auto" width = "100%" class="imagesizing" title="Longitude Festival 2018!" />
+                        </div>
+                        <div class="column">
+                            <p><img src = "https://scontent-dub4-1.xx.fbcdn.net/v/t1.15752-9/130262551_837395810327283_6360842502862719508_n.jpg?_nc_cat=104&ccb=2&_nc_sid=ae9488&_nc_ohc=xVvOjhZxRBEAX_oyMId&_nc_ht=scontent-dub4-1.xx&oh=4642861133ba6a0a1e56f399b4791a19&oe=5FF2E258" alt = "Debs2018" height = "auto" width = "100%" class="imagesizing" title="Debs 2018!" />
+                        </div>
+                        <div class="column">
+                            <p><img src = "https://scontent-dub4-1.xx.fbcdn.net/v/t1.15752-9/130256851_384203072637274_1250499674632006832_n.jpg?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_ohc=7P9eBiacN2YAX_lX3b4&_nc_ht=scontent-dub4-1.xx&oh=b6e3240fdaff2710e0e44c388c0fbb37&oe=5FF57319" alt = "FIB2018" height = "auto" width = "100%" class="imagesizing" title="FIB Benacassim 2018!" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<br>
+		<br>
+		<br>
+        <section id="contact" class="contact-me-container">
+            <div class="contact-content">
+                <h2>Contact Me</h2>
+                <div class="contact-me">
+                    <form action="https://formspree.io/cameron.jfitzpatrick@gmail.com" method="post">
+                        <p>
+                            <label for="contact-name"></label>
+                            <input id="contact-name" type="text" name="contact-name" placeholder="Your name.."/>
+                        </p>
+                        <p>
+                            <label for="contact-email"></label>
+                            <input id="contact-email" type="email" name="contact-email" placeholder="Your email..."/> </p>
+                        <p>
+                            <label for="contact-phone"></label>
+                            <input id="contact-phone" type="tel" name="contact-phone" placeholder="Your phone number..."/> </p>
+                        <p>
+                            <label for="contact-message"></label>
+                            <textarea id="contact-message" name="contact-message" rows=5 placeholder="Your message..."></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Send Message" /> </p>
+						<br>
+						<p>You can also contact me through social media:
+                            <br><a href="https://www.facebook.com/cameron.fitzpatrick.12" target="blank" class="fa fa-facebook"></a><a href="https://twitter.com/cameronfitz15" target="blank" class="fa fa-twitter"></a><a href="https://www.instagram.com/fitzpatrick_cameron/" target="blank" class="fa fa-instagram"></a>
+                    </form>
+                </div>
+            </div>
+        </section>
+		<br>
+		<br>
+		<br>
+    </main>
+    <footer class="page-footer">
+            <div class="footer-content">
+                <p> <span class="footer-text">&copy; <a href="dcu.ie/">DCU 2020</a>
+    </span> <span class="footer-separator">&middot;</span> <span class="footer-text">Cameron Fitzpatrick</span> <span class="footer-separator">&middot;</span>
+        </span> </p>
+            </div>
+        </footer>
+</body>
+
+</html>

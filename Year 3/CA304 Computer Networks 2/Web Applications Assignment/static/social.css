@@ -1,0 +1,92 @@
+/*SOCIAL MEDIA ICONS-----Social media icons came from w3cschools.com----------------------------------------------------------------------------------------------------------------*/
+
+.fa {
+  padding: 20px;
+  opacity: 0.7;
+  font-size: 50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3%;
+}
+
+.fa-facebook {
+    background-image: linear-gradient(to bottom left, #3B5998, #4F77CD, #3B5998);
+    opacity: 0.7;
+    font-size: 500px;
+    color: white;
+    box-shadow: 4px 4px 4px grey;
+    transition: 0.3s;
+}
+
+.fa-facebook:hover {
+    background-image: linear-gradient(to bottom left, #3B5998, #4F77CD, #3B5998);
+    opacity: 1;
+    color: white;
+    box-shadow: 8px 8px 8px grey;
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.fa-facebook:active {
+    background-image: linear-gradient(to bottom left, #3B5998, #4F77CD, #3B5998);
+    opacity: 1;
+    color: white;
+    box-shadow: 4px 4px 4px grey;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+.fa-twitter {
+    background-image: linear-gradient(to bottom left, #1972B4, #55ACEE, #1972B4);
+    opacity: 0.7;
+    color: white;
+    box-shadow: 4px 4px 4px grey;
+    transition: 0.3s;
+}
+
+.fa-twitter:hover{
+    background-image: linear-gradient(to bottom left, #1972B4, #55ACEE, #1972B4);
+    opacity: 1;
+    color: white;
+    box-shadow: 8px 8px 8px grey;
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+.fa-twitter:active{
+    background-image: linear-gradient(to bottom left, #1972B4, #55ACEE, #1972B4);
+    opacity: 1;
+    color: white;
+    box-shadow: 4px 4px 4px grey;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(to bottom left, red, purple, yellow);
+    opacity: 0.7;
+    color: white;
+    box-shadow: 4px 4px 4px grey;
+    transition: 0.3s;
+}
+
+.fa-instagram:hover{
+    background-image: linear-gradient(to bottom left, red, purple, yellow);
+    opacity: 1;
+    color: white;
+    box-shadow: 8px 8px 8px grey;
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.fa-instagram:active {
+    background-image: linear-gradient(to bottom left, #8a3ab9, #cd486b, #fbad50,);
+    opacity: 1;
+    color: white;
+    box-shadow: 4px 4px 4px grey;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
