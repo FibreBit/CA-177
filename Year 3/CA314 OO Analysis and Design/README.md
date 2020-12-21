@@ -1,4 +1,5 @@
-#Project Overview
+# Project Overview
+
 The goal of the assignment is to implement an Internet-based, strategy game, called MyScrabble, which is closely modelled after the board game Scrabble. The game is Internet-based; that is, players will be able to play each other and possibly the machine from remote. This application will, therefore, take on a client/server structure, where each client supports one player’s view of the game while the server coordinates communication between players and orchestrates the sequence of events of the game. 
 The game description and background is here:
 
